@@ -28,7 +28,7 @@ ssh-keygen -t rsa -b 4096 -C "your.email@gmail.com"
 
 ## 将SSH密钥添加到GitHub帐户
 
-记事本打开地址 C:\Users\<user>\.ssh 路径下的 id_rsa.pub，并复制
+记事本打开地址 C:/Users/[user]/.ssh 路径下的 id_rsa.pub，并复制
 
 登录到GitHub，转到“Settings”（设置） > “SSH and GPG keys”（SSH和GPG密钥），然后将您的SSH公钥添加到您的GitHub帐户中。
 
@@ -40,5 +40,3 @@ ssh -T git@github.com
 ```
 
 如果一切设置正确，您应该会收到一条消息，表示您已成功连接到GitHub。
-
-## 开始使用Git

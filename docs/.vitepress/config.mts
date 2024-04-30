@@ -59,6 +59,7 @@ export default defineConfig({
                 {text:'git in work',link:'/tools/git-in-work'},
                 {text:'git config',link:'/tools/git-config'},
                 {text:'git connect github',link:'/tools/git-connect-github'},
+                {text:'code push to github',link:'/tools/code-push-to-github'},
               ]
             },
             {
