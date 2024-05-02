@@ -130,6 +130,17 @@ export default defineConfig({
 
       ],
 
+      '/node/':[
+        {text:"node",items:[
+          {
+            text:'node 基础',
+            items:[{text:"node",link:"/node/node"},{text:"node router",link:"/node/node_router"},{text:"node service",link:"/node/node_service"},
+                  {text:"node model",link:"/node/node_model"},{text:"node module",link:"/node/node_module"},
+            ]
+          }
+        ]}
+      ],
+
       '/tools/':[
         {
           text:'Tools',
