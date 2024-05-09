@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/others/blog_template.md",
-                "mode": "source",
+                "file": "docs/vue-project/douyin_todo.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/others/blog_template.md",
+                "file": "docs/vue-project/douyin_todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/others/blog_template.md",
+                "file": "docs/vue-project/douyin_todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/others/blog_template.md"
+                "file": "docs/vue-project/douyin_todo.md"
               }
             }
           }
@@ -146,10 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7fd66b98701bcb93",
+  "active": "e28f1557b52b3324",
   "lastOpenFiles": [
-    "docs/others/markdown.md",
+    "docs/vue-project/douyin_step.md",
     "docs/others/blog_template.md",
+    "docs/vue-project/douyin_todo.md~",
+    "docs/vue-project/douyin_step.md~",
+    "docs/vue-project/todo.md",
+    "docs/vue-project/douyin_todo.md",
+    "docs/others/markdown.md",
     "docs/node/node_router.md",
     "docs/node/node_module.md",
     "docs/node/node_model.md",

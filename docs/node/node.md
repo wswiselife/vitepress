@@ -12,7 +12,7 @@
     <Badge type="tip" text="2024-05-02" />
 </div>
 
-## 初始化
+初始化
 
 ```
 npm init
