@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.BJCuTr2g.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"others/markdown.md","filePath":"others/markdown.md"}'),a={name:"others/markdown.md"};function o(n,s,c,d,m,p){return r(),t("div")}const f=e(a,[["render",o]]);export{i as __pageData,f as default};

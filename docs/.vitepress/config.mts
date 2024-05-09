@@ -11,9 +11,9 @@ export default defineConfig({
       {
         text:"编程基础",
         items:[
-          {text:'',items:[{text:"计算机网络",link:"/code-basics/计算机网络"}]}, 
-          {text:"",items:[{text:"操作系统",link:"/code-basics/操作系统"}]},
-          {text:"",items:[{text:"设计模式",link:"/code-basics/设计模式"}]},
+          {text:'',items:[{text:"计算机网络",link:"/code-basics/computer_network"}]}, 
+          {text:"",items:[{text:"操作系统",link:"/code-basics/operating_system"}]},
+          {text:"",items:[{text:"设计模式",link:"/code-basics/design_patterns"}]},
         ]
       },
       {
@@ -100,12 +100,6 @@ export default defineConfig({
                 {text:"vite",link:"/vue/vue_vite"},
               ]
             },
-            {
-              text:"vue 语法",
-              items:[
-                {text:"",link:""}
-              ]
-            }
           ]
         }
       ],
@@ -157,12 +151,6 @@ export default defineConfig({
                 {text:"vite",link:"/react/react_vite"},
               ]
             },
-            {
-              text:"react 语法",
-              items:[
-                {text:"",link:""}
-              ]
-            }
           ]
         },
         

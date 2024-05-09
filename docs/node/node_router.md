@@ -33,7 +33,7 @@ app.listen(port,()=>{
 
 ```
 
-打开 http://localhost:3000/user 就可以看到返回的数据
+打开本地 3000 端口就可以看到返回的数据
 
 需要返回支持 json 格式的数据，需要使用 express.json( )
 ```js

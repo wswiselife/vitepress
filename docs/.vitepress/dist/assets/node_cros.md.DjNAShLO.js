@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.BJCuTr2g.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"node/cros.md","filePath":"node/cros.md"}'),r={name:"node/cros.md"};function a(s,c,n,d,p,_){return o(),t("div")}const f=e(r,[["render",a]]);export{m as __pageData,f as default};

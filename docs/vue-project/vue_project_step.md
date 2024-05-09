@@ -14,7 +14,7 @@
 
 ## 项目创建
 
-具体参考 [vite 创建项目](./vue_vite.md)
+具体参考 [vite 创建项目]
 
 ## 结构搭建
 
@@ -22,15 +22,15 @@
 
 ### 网站必要信息更改
 
-具体参考 [初始化网站信息]()【todo】
+具体参考 [ 初始化网站信息 ]【todo】
 
 ### css 结构初始化
 
-具体参考 [css 初始化]()
+具体参考 [css 初始化]
 
 ### 引入 tailwindcss
 
-具体参考 [vue 引入 tailwindcss](../front-end/vue_connect_tailwindcss.md)【todo】
+具体参考 [vue 引入 tailwindcss]【todo】
 
 ## 目录搭建
 
@@ -40,7 +40,7 @@
 
 ## 路由搭建
 
-具体参考 [vue 路由搭建](../vue/vue_router.md)
+具体参考 [vue 路由搭建]
 
 ## Header & Footer 搭建
 
