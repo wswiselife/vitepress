@@ -1,5 +1,17 @@
 # 根据不同的列修改数据表中的列值
 
+<div style="color: red;padding: 16px 0; font-weight: 600;color: rgb(82 82 82); display: flex;gap: 10px;">
+    <span>标签：</span>
+    <Badge type="tip" text="工作" />
+    <Badge type="tip" text="初始化" />
+    <Badge type="tip" text="原子化" />
+</div>
+
+<div style="color: red; font-weight: 600;color: rgb(82 82 82);">
+    <span>创建时间：</span>
+    <Badge type="tip" text="2024-05-12" />
+</div>
+
 这样可以根据前端传递不同的列的信息，但接口都是同一个，减少前端的接口数量
 
 普通的写法，每一个列都需要有值,此时不允许有某一个列存在为空（undefined）的情况

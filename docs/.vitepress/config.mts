@@ -164,7 +164,6 @@ export default defineConfig({
             {text:"sql learning",link:'/sql/sql'},
           ]
        }
-
       ],
 
       '/node/':[
