@@ -177,7 +177,7 @@ export default defineConfig({
           },
           {
             text:"其他",
-            items:[{text:"cros",link:"/node/cros"}]
+            items:[{text:"cros",link:"/node/cros"},{text:"任意列更新",link:"/node/updateColumnByCloumnCondition"}]
           }
         ]}
       ],
@@ -204,7 +204,9 @@ export default defineConfig({
           text:"Others",
           items:[
             { text:'markdown',link:"/others/markdown"},
-            {text:"blog template",link:"/others/blog_template"}
+            {text:"blog template",link:"/others/blog_template"},
+            {text:"vscode 配置",link:"/others/vscode_config"},
+            {text:"vscode 插件",link:"/others/vscode_plugin"},
           ]
         }
       ]
