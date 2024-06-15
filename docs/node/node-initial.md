@@ -81,4 +81,28 @@ npm install -g nodemon
 nodemon app.js
 
 ```
+
+### git 的配置
+
+### ts/jsconfig.json 文件配置
+
+todo
+
+### prettier 插件使用
+
+todo
+
+### typescript 使用
+
+~~~
+npm install typescript 
+
+%% 安装express声明文件 %%
+npm install @types/express
+
+~~~
+
+### 环境变量处理
+
+dotenv 包
  
