@@ -12,7 +12,6 @@ export default defineConfig({
                 text: "编程基础",
                 items: [
                     {
-                        text: "",
                         items: [
                             {
                                 text: "计算机网络",
@@ -21,7 +20,6 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "",
                         items: [
                             {
                                 text: "操作系统",
@@ -30,7 +28,6 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "",
                         items: [
                             {
                                 text: "设计模式",
@@ -39,7 +36,6 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "",
                         items: [
                             {
                                 text: "数据结构与算法",
@@ -50,23 +46,21 @@ export default defineConfig({
                 ],
             },
             {
+                text: "UI",
+                items: [{ text: "Figma", link: "/design/figma" }],
+            },
+            {
                 text: "前端",
                 items: [
+                    { text: "html", link: "/html/html" },
+                    { text: "css", link: "/css/css" },
                     {
-                        text: "",
-                        items: [
-                            { text: "html", link: "/front-end/html" },
-                            { text: "css", link: "/front-end/css/css" },
-                            {
-                                text: "javascript",
-                                link: "/front-end/js/javascript",
-                            },
-                        ],
+                        text: "javascript",
+                        link: "/javascript/javascript",
                     },
                     { text: "vue", link: "/vue/vue_cli" },
                     { text: "react", link: "/react/react_cli" },
                     {
-                        // text: "打包",
                         items: [
                             { text: "vite 配置", link: "/front-end/vite/" },
                         ],
@@ -82,25 +76,52 @@ export default defineConfig({
                     { text: "Linux", link: "/node/linux" },
                 ],
             },
+            {
+                text: "项目",
+                items: [
+                    {
+                        text: "React",
+                        items: [
+                            {
+                                text: "airbnb-next",
+                                link: "/project/airbnb-next/",
+                            },
+                            { text: "x-next", link: "/project/x-next/setp" },
+                        ],
+                    },
 
+                    {
+                        text: "Vue",
+                        items: [
+                            {
+                                text: "douyin-vue3",
+                                link: "/project/douyin-vue3/douyin_todo",
+                            },
+                        ],
+                    },
+                    {
+                        text: "Node",
+                        items: [
+                            {
+                                text: "douyin-node",
+                                link: "/project/douyin-node/douyin-node",
+                            },
+                        ],
+                    },
+                ],
+            },
             {
                 text: "CICD",
                 items: [
                     { text: "服务器", link: "/cicd/cicd" },
                     { text: "vercel", link: "/cicd/vercel_deploy_frontend" },
-                    { text: "宝塔", link: "/cide/baota" },
+                    { text: "宝塔", link: "/cicd/baota" },
                 ],
             },
-            {
-                text: "UI",
-                items: [{ text: "Figma", link: "/design/figma" }],
-            },
+
             {
                 text: "工具",
-                items: [
-                    { text: "git", link: "/tools/git" },
-                    { text: "linux", link: "/tools/linux" },
-                ],
+                items: [{ text: "git", link: "/tools/git" }],
             },
             {
                 text: "其他",
@@ -110,44 +131,23 @@ export default defineConfig({
                 ],
             },
         ],
-
-        // sidebar: [
-        //   {
-        //     text: 'front-end',
-        //     items: [
-        //       { text: 'html', link: '/front-end/html' },
-        //     ]
-        //   },
-        //   {
-        //     items:[
-        //       {text:"git",link:'/tools/git'},
-        //       {text:"linux",link:'/tools/linux'}
-        //     ]
-        //   }
-        // ],
-
         // 这里处理成对象
         sidebar: {
-            "/front-end/": [
+            "/html/": [{ text: "html", link: "/html/html" }],
+
+            "/css/": [
                 {
-                    text: "前端基础",
+                    text: "CSS",
                     items: [
-                        { text: "html", link: "/front-end/html" },
-                        {
-                            text: "css",
-                            link: "/front-end/css/css",
-                            items: [
-                                {
-                                    text: "common tailwindcss",
-                                    link: "/front-end/common_tailwindcss",
-                                },
-                                {
-                                    text: "vue connect tailwindcss",
-                                    link: "/front-end/vue_connect_tailwindcss",
-                                },
-                            ],
-                        },
-                        { text: "javascript", link: "/front-end/javascript" },
+                        { text: "BEM", link: "/css/css_BEM" },
+                        { text: "Project", link: "/css/css_project" },
+                    ],
+                },
+                {
+                    text: "tailwindcss",
+                    items: [
+                        { text: "BEM", link: "/front-end/css/css_BEM" },
+                        { text: "Project", link: "/front-end/css/css_project" },
                     ],
                 },
             ],
@@ -161,50 +161,6 @@ export default defineConfig({
                             items: [
                                 { text: "vue cli", link: "/vue/vue_cli" },
                                 { text: "vite", link: "/vue/vue_vite" },
-                            ],
-                        },
-                    ],
-                },
-            ],
-            "/vue-project/": [
-                {
-                    text: "通用项目处理",
-                    items: [
-                        {
-                            text: "",
-                            items: [
-                                {
-                                    text: "项目初始化",
-                                    link: "/vue-project/vue_project_step",
-                                },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    text: "抖音项目",
-                    items: [
-                        {
-                            text: "",
-                            items: [
-                                {
-                                    text: "步骤",
-                                    link: "/vue-project/douyin_step",
-                                },
-                            ],
-                        },
-                    ],
-                },
-                {
-                    text: "抖音项目-todo记录",
-                    items: [
-                        {
-                            text: "",
-                            items: [
-                                {
-                                    text: "步骤",
-                                    link: "/vue-project/douyin_todo",
-                                },
                             ],
                         },
                     ],
@@ -233,6 +189,31 @@ export default defineConfig({
                         { text: "environment config", link: "/sql/env_config" },
                         { text: "sql learning", link: "/sql/sql" },
                     ],
+                },
+            ],
+            "/project/": [
+                { text: "airbnb-next", link: "/project/airbnb-next/" },
+                { text: "x-next", link: "/project/x-next/setp" },
+                {
+                    text: "douyin-vue3",
+                    items: [
+                        {
+                            text: "step",
+                            link: "/project/douyin-vue3/step",
+                        },
+                        {
+                            text: "todo",
+                            link: "/project/douyin-vue3/douyin_todo",
+                        },
+                        {
+                            text: "project",
+                            link: "/project/douyin-vue3/vue_project_step",
+                        },
+                    ],
+                },
+                {
+                    text: "douyin-node",
+                    link: "/project/douyin-node/douyin-node",
                 },
             ],
 
@@ -294,10 +275,6 @@ export default defineConfig({
                                 },
                             ],
                         },
-                        {
-                            text: "linux",
-                            link: "/tools/linux",
-                        },
                     ],
                 },
             ],
@@ -319,7 +296,7 @@ export default defineConfig({
         },
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/vuejs/vitepress" },
+            { icon: "github", link: "https://github.com/wswiselife" },
         ],
     },
 });
