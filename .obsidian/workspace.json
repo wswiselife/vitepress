@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/project/douyinweb/step.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "115824e29f5e012e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/project/douyinweb/step.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/project/douyinweb/step.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/project/douyinweb/step.md"
+                "file": "README.md"
               }
             }
           }
@@ -158,32 +148,34 @@
   },
   "active": "e28f1557b52b3324",
   "lastOpenFiles": [
-    "docs/project/douyin/douyin-node.md",
-    "docs/vue-project/douyin_step.md",
-    "docs/more.md",
-    "docs/index.md",
+    "docs/react/react_vite.md",
+    "docs/react/react_cli.md",
+    "docs/front-end/vite/index.md",
+    "docs/front-end/css/css_basic.md",
+    "docs/front-end/css/css_application.md",
+    "docs/front-end/css/css.md",
+    "docs/front-end/css/common_tailwindcss.md",
+    "docs/front-end/js/javascript.md",
+    "docs/front-end/html.md",
+    "docs/others/vscode_config.md",
+    "docs/front-end/vite",
+    "docs/others/test.md",
+    "docs/others/npm.md",
+    "docs/others/naming-guide.md",
+    "docs/others/markdown.md",
+    "docs/others/blog_template.md",
+    "docs/vue/vue_cli.md",
+    "docs/vue/vue_router.md",
+    "docs/vue/vue_vite.md",
     "docs/sql/create-database.md",
     "docs/sql/env_config.md",
     "docs/sql/sql.md",
-    "docs/project/douyinweb/step.md",
-    "docs/others/test.md",
-    "docs/others/vscode_config.md",
-    "docs/node/conn mysql.md",
-    "docs/node/errorHandler.md",
-    "docs/node/express-normal/node_router.md",
-    "docs/node/cros.md",
-    "docs/node/export-import.md",
-    "docs/node/file-upload.md",
-    "docs/node/naming-guide.md",
-    "docs/node/node-initial.md",
-    "docs/node/updateColumnByCloumnCondition.md",
-    "docs/tools/宝塔-部署.md",
-    "docs/tools/linux.md",
-    "docs/tools/mysql-error.md",
-    "docs/tools/git-connect-github.md",
+    "docs/tools/git.md",
     "docs/tools/code-push-to-github.md",
-    "docs/vue/vue_vite.md",
-    "docs/vue/vue_router.md",
+    "docs/tools/宝塔-部署.md",
+    "docs/tools/git-connect-github.md",
+    "docs/project/x-next/setp.md",
+    "docs/project/x-next",
     "docs/design",
     "docs/vue-project/douyin_todo.md~",
     "docs/vue-project/douyin_step.md~"

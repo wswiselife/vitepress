@@ -18,8 +18,8 @@
 
 1. 位置（z-index,position,display,float）
 2. 大小边距（width,height,padding,margin）
-3. 文字样式+文字属性（font-size,color）
-4. 背景（background,border）
+3. 文字样式+文字属性（font-size,font-weight,color）
+4. 背景（background,border,border-radius,outline）
 5. 其他（animation，transition）
 
 ### 注意缩写

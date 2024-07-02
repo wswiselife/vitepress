@@ -44,6 +44,7 @@ git commit -m "Project Initial"
 由于GitHub中主分支为main分支，而本地仓库的主分支为master分支，需要把本地的分支切换成main分支，并删除master分支
 
 ```
+git branch                // 查看分支
 git branch -m main        // 创建并切换到main分支
 git branch -d master      // 删除master分支
 
@@ -58,9 +59,19 @@ git remote add origin git@github.com:yourusername/yourrepository.git
 
 ```
 
+## 处理冲突
+```
+git pull origin main
+git pull origin main --allow-unrelated-histories    // 强制拉取并合并不同历史记录
+```
+
+冲突处理合并
+
 ## 推送到GitHub
 
 ```
+git add .
+git commit -m 'something'
 git push -u origin main
 
 ```
