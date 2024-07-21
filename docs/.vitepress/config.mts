@@ -146,7 +146,10 @@ export default defineConfig({
                 {
                     text: "tailwindcss",
                     items: [
-                        { text: "BEM", link: "/front-end/css/css_BEM" },
+                        {
+                            text: "安装 tailwind",
+                            link: "/css/connect_tailwindcss",
+                        },
                         { text: "Project", link: "/front-end/css/css_project" },
                     ],
                 },

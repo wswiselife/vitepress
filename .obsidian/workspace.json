@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/react/react_vite.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/react/react_vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/react/react_vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/react/react_vite.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "e28f1557b52b3324",
   "lastOpenFiles": [
-    "docs/react/react_vite.md",
     "docs/react/react_cli.md",
+    "README.md",
+    "docs/react/react_vite.md",
     "docs/front-end/vite/index.md",
     "docs/front-end/css/css_basic.md",
     "docs/front-end/css/css_application.md",
@@ -174,7 +175,6 @@
     "docs/tools/code-push-to-github.md",
     "docs/tools/宝塔-部署.md",
     "docs/tools/git-connect-github.md",
-    "docs/project/x-next/setp.md",
     "docs/project/x-next",
     "docs/design",
     "docs/vue-project/douyin_todo.md~",
