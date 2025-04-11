@@ -282,7 +282,7 @@ export default defineConfig({
                 },
             ],
 
-            "/others": [
+            "/others/": [
                 {
                     text: "Others",
                     items: [
@@ -294,6 +294,17 @@ export default defineConfig({
                         { text: "vscode 配置", link: "/others/vscode_config" },
                         { text: "vscode 插件", link: "/others/vscode_plugin" },
                     ],
+                },
+            ],
+
+            "/data-structures-and-algorithm/": [
+                {
+                    text: "Find",
+                    link: "/data-structures-and-algorithm/find/",
+                },
+                {
+                    text: "Sort",
+                    link: "/data-structures-and-algorithm/sort/",
                 },
             ],
         },
