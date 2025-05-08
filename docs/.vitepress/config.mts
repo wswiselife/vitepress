@@ -276,6 +276,10 @@ export default defineConfig({
                                     text: "code push to github",
                                     link: "/tools/code-push-to-github",
                                 },
+                                {
+                                    text: "tailwindcss init react project",
+                                    link: "/tools/tailwindcss_init_reactproject",
+                                },
                             ],
                         },
                     ],
