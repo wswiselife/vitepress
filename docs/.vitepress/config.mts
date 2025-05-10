@@ -280,6 +280,10 @@ export default defineConfig({
                                     text: "tailwindcss init react project",
                                     link: "/tools/tailwindcss_init_reactproject",
                                 },
+                                {
+                                    text: "nvm-install",
+                                    link: "/tools/nvm-install",
+                                },
                             ],
                         },
                     ],
