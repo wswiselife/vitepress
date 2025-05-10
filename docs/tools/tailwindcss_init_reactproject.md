@@ -56,8 +56,8 @@ export default defineConfig({
 
 3. 在全局 css 文件中注册 tailwind
 
-```js
-// index.css
+```css
+/* index.css */
 @import "tailwindcss";
 ```
 
