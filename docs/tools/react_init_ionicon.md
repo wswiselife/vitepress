@@ -17,7 +17,7 @@
 Ionic 官方提供了 React 组件库，直接安装即可使用：
 
 ```termainal
-npm install @ionic/react @ionic/react-icons
+npm install ionicons @ionic/react
 ```
 
 ```tsx

@@ -284,6 +284,10 @@ export default defineConfig({
                                     text: "nvm-install",
                                     link: "/tools/nvm-install",
                                 },
+                                {
+                                    text: "react_init_ionicon",
+                                    link: "/tools/react_init_ionicon",
+                                },
                             ],
                         },
                     ],
