@@ -128,6 +128,7 @@ export default defineConfig({
                 items: [
                     { text: "markdown", link: "/others/markdown" },
                     { text: "blog template", link: "/others/blog_template" },
+                    { text: "vscode snippet", link: "/others/vscode_snippet" },
                 ],
             },
         ],
