@@ -1,4 +1,6 @@
-一、初始化全局类
+# loading 全局挂载
+
+## 一、初始化全局类
 
 将多个工具方法集中封装在一个类里，并作为一个统一入口使用，
 
@@ -52,4 +54,46 @@ window.coco = {...}	多子系统统一对外暴露	Facade Pattern（外观模式
 
 ```
 
+### 全局常驻节点
+
+```ts
+    director.addPersistRootNode(this.residentNode)
+
+```
+声明常驻根节点，该节点不会在场景切换中被销毁。 目标节点必须位于为层级的根节点，否则无效。
+
+常驻节点放置例如
+1. 广告管理(AdsMgr)
+2. 上报后台的数据(TAMgr)
+3. 上报第三方平台的数据
+
+### 加载游戏资源（初始化调用资源）
+
+1. 加载语言包
+2. 加载音效资源
+3. 加载 home 主体场景
+4. 加载战斗资源
+5. 加载配置包
+   
+```ts
+ coco.i18n.Init((err) => {
+    if (!err) return;
+    console.log("语言包加载完毕");
+});
+
+coco.AssetMgr.PreLoadBundle("Audio", (err, asset) => {
+    if (err) return;
+    console.log("音效包加载完毕");
+    coco.AudioMgr.LoadAll();//加载所有音效文件
+});
+
+coco.AssetMgr.PreLoadBundle("Home", (err, asset) => {
+    if (err) {
+        console.log("Home资源加载失败", JSON.stringify(err));
+        return;
+    }
+    this.hasLoadHome = true;
+    console.log("Home资源加载完毕", asset);
+});
+```
 
